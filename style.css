@@ -1,0 +1,148 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fafafa;
+}
+
+/* Header */
+header {
+    background-color: #4A90E2;
+    color: rgb(13, 13, 13);
+    padding: 20px;
+    text-align: center;
+    
+}
+
+header h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: rgb(21, 19, 19);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.home {
+    background-color: #E1F5FE;
+    color: #333;
+}
+
+.about {
+    background-color: #FFF9C4;
+    color: #333;
+}
+
+.skills {
+    background-color: #FFECB3;
+    color: #333;
+}
+
+.education {
+    background-color: #D7CCC8;
+    color: #333;
+}
+
+.hobbies {
+    background-color: #C8E6C9;
+    color: #333;
+}
+
+.contact {
+    background-color: #FFCDD2;
+    color: #333;
+}
+
+/* Section Titles */
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+h2::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #333;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+/* Skills Section */
+ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+ul li {
+    font-size: 1.2em;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #FFF8E1;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Section */
+section p {
+    margin: 10px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}
+footer p {
+    font-size: 25px;
+    color: rgb(248, 242, 242);
+}
+/* styles.css */
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    border:3.5px solid #1c1616;
+    margin-left: 1200px;
+    margin-top: -120px;
+    background-color: 3.5px;
+    
+    
+
+}
